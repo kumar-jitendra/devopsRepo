@@ -1,2 +1,2 @@
-FROM hshar/webapp
-ADD ./devopsIQ /var/www/html/devopsIQ
+FROM ubuntu:18.04
+ADD ./devopsRepo /var/www/html/devopsRepo
